@@ -57,7 +57,7 @@
 // console.log("cloned object");
 // console.log(clonedObj);
 
-// 3. third method using .stringify and .parse: deep clone
+// 3. third method using JSON.stringify and JSON.parse: deep clone
 // let prevObj = {
 //   a: 10,
 //   b: 20,
