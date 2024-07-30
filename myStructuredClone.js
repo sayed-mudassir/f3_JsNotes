@@ -1,6 +1,8 @@
-/** four steps for creating own structured clone 
+/** four steps for creating own structured clone :
+ * 
  * step 1 check the type of variable present in an object
- * Note:-> iterate over it and call our function over each property by converting this an array
+ * NOTES: iterate over it and call our function over each property by converting this an array
+ 
  * step 2 convert this in an array
  * step 3 call deepClone fn on each and every property 
  * step 4 generate obj from deep cloned array 
