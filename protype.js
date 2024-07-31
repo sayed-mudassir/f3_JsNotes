@@ -60,3 +60,6 @@ console.log(typeof Array);
  * so when use arr.map js engine will first find this functionality in its own prototype obj if its doent found there it will move to the parent prototype 
  * by using the reference __proto__ and start searching there if it finds there it will execute it and if not it will again start searching in its parents prototype
  */
+/**
+ * we can accses the property of parents to the child
+ */
