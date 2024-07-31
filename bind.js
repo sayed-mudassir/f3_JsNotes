@@ -17,3 +17,7 @@ newIntro("alld","google");
 //  we can also bind the functional argument, but we should follow the left to right direction and first argument should be object
 const fixedArgsIntro = intro.bind(obj1,"alld");
 fixedArgsIntro("wallmart ");
+
+//  if we pass null as object in call bind and apply then function will always binded with window
+// once a function is binded it cant be binded again
+// call bind and apply will work only with normal function they doesnt worl with arraow function
