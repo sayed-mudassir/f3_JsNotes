@@ -17,4 +17,4 @@ const myFlat = (arr)=>{
 
     return res;
 }
-console.log(myFlat(arr))
+console.log(myFlat(arr));
